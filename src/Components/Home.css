@@ -1,0 +1,64 @@
+.section{
+    display: flex;
+    font-size: 18px;
+}
+.compartment{
+    text-align: center;
+}
+#FirstLogo{
+    margin: 70px 50px 0 20px;
+}
+#UGDegreeCertificate{
+    margin: 10px 10px 10px 50px;
+}
+#UGCompartment{
+    margin: 0px 0 0 0;
+}
+#PGCompartment{
+    margin: 10px 0 0 0;
+}
+#UICLogo{
+    margin: 40px 30px 0 20px;
+}
+#UICWritingLogo{
+    margin: 30px 0 0 0;
+}
+img {
+    pointer-events: none;
+}
+@media only screen and (max-width: 973px) {
+    .whole{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+    .section{
+        display: block;
+    }
+    #FirstLogo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 120px;
+        width: auto;
+    }
+    #UICWritingLogo{
+        margin: 30px 0 0 0;
+        height: 200px;
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #UGDegreeCertificate{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #UICLogo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

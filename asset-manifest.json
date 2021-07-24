@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/coursework/static/css/main.d7d6bdbd.chunk.css",
-    "main.js": "/coursework/static/js/main.810036e3.chunk.js",
-    "main.js.map": "/coursework/static/js/main.810036e3.chunk.js.map",
+    "main.js": "/coursework/static/js/main.74853985.chunk.js",
+    "main.js.map": "/coursework/static/js/main.74853985.chunk.js.map",
     "runtime-main.js": "/coursework/static/js/runtime-main.4ea8d239.js",
     "runtime-main.js.map": "/coursework/static/js/runtime-main.4ea8d239.js.map",
     "static/js/2.0f712823.chunk.js": "/coursework/static/js/2.0f712823.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.4ea8d239.js",
     "static/js/2.0f712823.chunk.js",
     "static/css/main.d7d6bdbd.chunk.css",
-    "static/js/main.810036e3.chunk.js"
+    "static/js/main.74853985.chunk.js"
   ]
 }

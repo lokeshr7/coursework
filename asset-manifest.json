@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/coursework/static/css/main.d7d6bdbd.chunk.css",
+    "main.js": "/coursework/static/js/main.810036e3.chunk.js",
+    "main.js.map": "/coursework/static/js/main.810036e3.chunk.js.map",
+    "runtime-main.js": "/coursework/static/js/runtime-main.4ea8d239.js",
+    "runtime-main.js.map": "/coursework/static/js/runtime-main.4ea8d239.js.map",
+    "static/js/2.0f712823.chunk.js": "/coursework/static/js/2.0f712823.chunk.js",
+    "static/js/2.0f712823.chunk.js.map": "/coursework/static/js/2.0f712823.chunk.js.map",
+    "static/js/3.f3893b93.chunk.js": "/coursework/static/js/3.f3893b93.chunk.js",
+    "static/js/3.f3893b93.chunk.js.map": "/coursework/static/js/3.f3893b93.chunk.js.map",
+    "index.html": "/coursework/index.html",
+    "static/css/main.d7d6bdbd.chunk.css.map": "/coursework/static/css/main.d7d6bdbd.chunk.css.map",
+    "static/js/2.0f712823.chunk.js.LICENSE.txt": "/coursework/static/js/2.0f712823.chunk.js.LICENSE.txt",
+    "static/media/DegreeCertificateTechnicallyRedacted3.b1ac13ad.png": "/coursework/static/media/DegreeCertificateTechnicallyRedacted3.b1ac13ad.png",
+    "static/media/SastraLogo.915865a7.png": "/coursework/static/media/SastraLogo.915865a7.png",
+    "static/media/UIC.8a395a3b.png": "/coursework/static/media/UIC.8a395a3b.png",
+    "static/media/UICWritingLogo.826c1624.png": "/coursework/static/media/UICWritingLogo.826c1624.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ea8d239.js",
+    "static/js/2.0f712823.chunk.js",
+    "static/css/main.d7d6bdbd.chunk.css",
+    "static/js/main.810036e3.chunk.js"
+  ]
+}

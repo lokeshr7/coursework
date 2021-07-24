@@ -78,7 +78,7 @@ function App() {
   return (
     <div>
 	    <Switch>
-		    <Route path="/" component={Home} exact />
+		    <Route path="/coursework" component={Home} exact />
 
 		    <Route path="/UG" component={UG} />
 

@@ -20,7 +20,6 @@ class Home extends React.Component{
 						Shanmugha Arts, Science, Technology and Research Academy <br/><br/>
 						(SASTRA)</h3>
 						<h3>July 11, 2016 - July 16, 2020</h3>
-						{console.log(process.env.PUBLIC_URL)}
 						<Link to="/UG">Click here to view undergraduate coursework</Link>
 					</div>
 					<img src={UGDegreeCertificate} alt="Degree Certificate" width="auto" height="300" id="UGDegreeCertificate"/>

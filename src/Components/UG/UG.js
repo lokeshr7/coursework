@@ -18,7 +18,7 @@ class UG extends React.Component{
 			<div className="container">
 
 				<div className="divider">
-
+	
 					<Sem1 />
 
 					<Sem2 />

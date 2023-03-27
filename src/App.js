@@ -1,5 +1,5 @@
 import './App.css';
-import {Route, Switch} from 'react-router-dom';
+import {Route, Routes} from 'react-router-dom';
 import Home from './Components/Home';
 import Error from './Components/Error';
 
@@ -77,82 +77,82 @@ import PG from './Components/PG/PG';
 function App() {
   return (
     <div>
-	    <Switch>
-		    <Route path="/coursework" component={Home} exact />
+	    <Routes>
+		    <Route path="/coursework" element={<Home/>} exact />
 			
-		    <Route path="/UG" component={UG} />
+		    <Route path="/UG" element={<UG/>} />
 
-			<Route path="/UGEngineeringMathematics-I" component={UGEngineeringMathematics1} />
-			<Route path="/UGProgramminginC" component={UGProgramminginC} />
-			<Route path="/UGEngineeringPhysics" component={UGEngineeringPhysics} />
-			<Route path="/UGEngineeringMechanics" component={UGEngineeringMechanics} />
-			<Route path="/UGBasicCivilEngineering" component={UGBasicCivilEngineering} />
-			<Route path="/UGBasicMechanicalEngineering" component={UGBasicMechanicalEngineering} />
-			<Route path="/UGEngineeringPractice" component={UGEngineeringPractice} />
-			<Route path="/UGProgramminginCLab" component={UGProgramminginCLab} />
-			<Route path="/UGEngineeringPhysicsLab" component={UGEngineeringPhysicsLab} />
+			<Route path="/UGEngineeringMathematics-I" element={<UGEngineeringMathematics1/>} />
+			<Route path="/UGProgramminginC" element={<UGProgramminginC/>} />
+			<Route path="/UGEngineeringPhysics" element={<UGEngineeringPhysics/>} />
+			<Route path="/UGEngineeringMechanics" element={<UGEngineeringMechanics/>} />
+			<Route path="/UGBasicCivilEngineering" element={<UGBasicCivilEngineering/>} />
+			<Route path="/UGBasicMechanicalEngineering" element={<UGBasicMechanicalEngineering/>} />
+			<Route path="/UGEngineeringPractice" element={<UGEngineeringPractice/>} />
+			<Route path="/UGProgramminginCLab" element={<UGProgramminginCLab/>} />
+			<Route path="/UGEngineeringPhysicsLab" element={<UGEngineeringPhysicsLab/>} />
 
-			<Route path="/UGTechnicalCommunication" component={UGTechnicalCommunication} />
-			<Route path="/UGEngineeringMathematics-II" component={UGEngineeringMathematics2} />
-			<Route path="/UGProgramminginCPP" component={UGProgramminginCPP} />
-			<Route path="/UGEngineeringChemistry" component={UGEngineeringChemistry} />
-			<Route path="/UGEngineeringDrawing" component={UGEngineeringDrawing} />
-			<Route path="/UGElectricalSciences" component={UGElectricalSciences} />
-			<Route path="/UGProgramminginCPPLab" component={UGProgramminginCPPLab} />
-			<Route path="/UGComputerAidedDrawingLab" component={UGComputerAidedDrawingLab} />
+			<Route path="/UGTechnicalCommunication" element={<UGTechnicalCommunication/>} />
+			<Route path="/UGEngineeringMathematics-II" element={<UGEngineeringMathematics2/>} />
+			<Route path="/UGProgramminginCPP" element={<UGProgramminginCPP/>} />
+			<Route path="/UGEngineeringChemistry" element={<UGEngineeringChemistry/>} />
+			<Route path="/UGEngineeringDrawing" element={<UGEngineeringDrawing/>} />
+			<Route path="/UGElectricalSciences" element={<UGElectricalSciences/>} />
+			<Route path="/UGProgramminginCPPLab" element={<UGProgramminginCPPLab/>} />
+			<Route path="/UGComputerAidedDrawingLab" element={<UGComputerAidedDrawingLab/>} />
 
-		    <Route path="/UGEngineeringMathematics-III" component={UGEngineeringMathematics3} />
-			<Route path="/UGDatabaseManagementSystems" component={UGDatabaseManagementSystems} />
-		    <Route path="/UGDataStructures" component={UGDataStructures} />
-		    <Route path="/UGDigitalElectronics" component={UGDigitalElectronics} />
-		    <Route path="/UGDiscreteMathematics" component={UGDiscreteMathematics} />
-		    <Route path="/UGComputerGraphics" component={UGComputerGraphics} />
-			<Route path="/UGDataStructuresLab" component={UGDataStructuresLab} />
-		    <Route path="/UGDigitalElectronicsLab" component={UGDigitalElectronicsLab} />
+		    <Route path="/UGEngineeringMathematics-III" element={<UGEngineeringMathematics3/>} />
+			<Route path="/UGDatabaseManagementSystems" element={<UGDatabaseManagementSystems/>} />
+		    <Route path="/UGDataStructures" element={<UGDataStructures/>} />
+		    <Route path="/UGDigitalElectronics" element={<UGDigitalElectronics/>} />
+		    <Route path="/UGDiscreteMathematics" element={<UGDiscreteMathematics/>} />
+		    <Route path="/UGComputerGraphics" element={<UGComputerGraphics/>} />
+			<Route path="/UGDataStructuresLab" element={<UGDataStructuresLab/>} />
+		    <Route path="/UGDigitalElectronicsLab" element={<UGDigitalElectronicsLab/>} />
 
-			<Route path="/UGEngineeringMathematics-IV" component={UGEngineeringMathematics4} />
-			<Route path="/UGComputerOrganization&Architecture" component={UGComputerOrganizationArchitecture} />
-		    <Route path="/UGMicroprocessors&Microcontrollers" component={UGMicroprocessorsMicrocontrollers} />
-		    <Route path="/UGJavaProgramming" component={UGJavaProgramming} />
-		    <Route path="/UGObjectOrientedAnalysis&Design" component={UGObjectOrientedAnalysisDesign} />
-		    <Route path="/UGInformationStorage&Management" component={UGInformationStorageManagement} />
-			<Route path="/UGMicroprocessors&MicrocontrollersLab" component={UGMicroprocessorsMicrocontrollersLab} />
-		    <Route path="/UGJavaProgrammingLab" component={UGJavaProgrammingLab} />
+			<Route path="/UGEngineeringMathematics-IV" element={<UGEngineeringMathematics4/>} />
+			<Route path="/UGComputerOrganization&Architecture" element={<UGComputerOrganizationArchitecture/>} />
+		    <Route path="/UGMicroprocessors&Microcontrollers" element={<UGMicroprocessorsMicrocontrollers/>} />
+		    <Route path="/UGJavaProgramming" element={<UGJavaProgramming/>} />
+		    <Route path="/UGObjectOrientedAnalysis&Design" element={<UGObjectOrientedAnalysisDesign/>} />
+		    <Route path="/UGInformationStorage&Management" element={<UGInformationStorageManagement/>} />
+			<Route path="/UGMicroprocessors&MicrocontrollersLab" element={<UGMicroprocessorsMicrocontrollersLab/>} />
+		    <Route path="/UGJavaProgrammingLab" element={<UGJavaProgrammingLab/>} />
 
-			<Route path="/UGDesign&AnalysisofAlgorithms" component={UGDesignAnalysisofAlgorithms} />
-			<Route path="/UGTheoryofComputation" component={UGTheoryofComputation} />
-			<Route path="/UGOperatingSystems" component={UGOperatingSystems} />
-			<Route path="/UGComputerNetworks" component={UGComputerNetworks} />
-			<Route path="/UGEngineeringMathematics-V" component={UGEngineeringMathematics5} />
-			<Route path="/UGRobotics" component={UGRobotics} />
-			<Route path="/UGOperatingSystemsLab" component={UGOperatingSystemsLab} />
-			<Route path="/UGComputerNetworksLab" component={UGComputerNetworksLab} />
+			<Route path="/UGDesign&AnalysisofAlgorithms" element={<UGDesignAnalysisofAlgorithms/>} />
+			<Route path="/UGTheoryofComputation" element={<UGTheoryofComputation/>} />
+			<Route path="/UGOperatingSystems" element={<UGOperatingSystems/>} />
+			<Route path="/UGComputerNetworks" element={<UGComputerNetworks/>} />
+			<Route path="/UGEngineeringMathematics-V" element={<UGEngineeringMathematics5/>} />
+			<Route path="/UGRobotics" element={<UGRobotics/>} />
+			<Route path="/UGOperatingSystemsLab" element={<UGOperatingSystemsLab/>} />
+			<Route path="/UGComputerNetworksLab" element={<UGComputerNetworksLab/>} />
 
-			<Route path="/UGCryptography&NetworkSecurity" component={UGCryptographyNetworkSecurity} />
-			<Route path="/UGSoftwareEngineering" component={UGSoftwareEngineering} />
-			<Route path="/UGCompilerEngineering" component={UGCompilerEngineering} />
-			<Route path="/UGArtificialIntelligence" component={UGArtificialIntelligence} />
-			<Route path="/UGMobileComputing" component={UGMobileComputing} />
-			<Route path="/UGPythonProgramming" component={UGPythonProgramming} />
-			<Route path="/UGCompilerEngineeringLab" component={UGCompilerEngineeringLab} />
-			<Route path="/UGSoftwareEngineeringLab" component={UGSoftwareEngineeringLab} />
+			<Route path="/UGCryptography&NetworkSecurity" element={<UGCryptographyNetworkSecurity/>} />
+			<Route path="/UGSoftwareEngineering" element={<UGSoftwareEngineering/>} />
+			<Route path="/UGCompilerEngineering" element={<UGCompilerEngineering/>} />
+			<Route path="/UGArtificialIntelligence" element={<UGArtificialIntelligence/>} />
+			<Route path="/UGMobileComputing" element={<UGMobileComputing/>} />
+			<Route path="/UGPythonProgramming" element={<UGPythonProgramming/>} />
+			<Route path="/UGCompilerEngineeringLab" element={<UGCompilerEngineeringLab/>} />
+			<Route path="/UGSoftwareEngineeringLab" element={<UGSoftwareEngineeringLab/>} />
 
-			<Route path="/UGBigDataAnalytics" component={UGBigDataAnalytics} />
-			<Route path="/UGCloudComputing" component={UGCloudComputing} />
-			<Route path="/UGParallel&DistributedSystems" component={UGParallelDistributedSystems} />
-			<Route path="/UGEmbeddedSystems" component={UGEmbeddedSystems} />
-			<Route path="/UGInternetofThings" component={UGInternetofThings} />
-			<Route path="/UGEmbeddedSystemsLab" component={UGEmbeddedSystemsLab} />
-			<Route path="/UGParallel&DistributedSystemsLab" component={UGParallelDistributedSystemsLab} />
+			<Route path="/UGBigDataAnalytics" element={<UGBigDataAnalytics/>} />
+			<Route path="/UGCloudComputing" element={<UGCloudComputing/>} />
+			<Route path="/UGParallel&DistributedSystems" element={<UGParallelDistributedSystems/>} />
+			<Route path="/UGEmbeddedSystems" element={<UGEmbeddedSystems/>} />
+			<Route path="/UGInternetofThings" element={<UGInternetofThings/>} />
+			<Route path="/UGEmbeddedSystemsLab" element={<UGEmbeddedSystemsLab/>} />
+			<Route path="/UGParallel&DistributedSystemsLab" element={<UGParallelDistributedSystemsLab/>} />
 
-			<Route path="/UGE-commerce" component={UGECommerce} />
-			<Route path="/UGAnimationTechniques" component={UGAnimationTechniques} />
-			<Route path="/UGInformationHiding" component={UGInformationHiding} />
+			<Route path="/UGE-commerce" element={<UGECommerce/>} />
+			<Route path="/UGAnimationTechniques" element={<UGAnimationTechniques/>} />
+			<Route path="/UGInformationHiding" element={<UGInformationHiding/>} />
 
-		    <Route path="/PG" component={PG} />
+		    <Route path="/PG" element={<PG/>} />
 
-		    <Route component={Error} />
-	    </Switch>
+		    <Route element={<Error/>} />
+	    </Routes>
     </div>
   );
 }

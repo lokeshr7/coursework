@@ -1,26 +1,19 @@
 {
   "files": {
-    "main.css": "/coursework/static/css/main.5877b3cf.chunk.css",
-    "main.js": "/coursework/static/js/main.ef740209.chunk.js",
-    "main.js.map": "/coursework/static/js/main.ef740209.chunk.js.map",
-    "runtime-main.js": "/coursework/static/js/runtime-main.4ea8d239.js",
-    "runtime-main.js.map": "/coursework/static/js/runtime-main.4ea8d239.js.map",
-    "static/js/2.0f712823.chunk.js": "/coursework/static/js/2.0f712823.chunk.js",
-    "static/js/2.0f712823.chunk.js.map": "/coursework/static/js/2.0f712823.chunk.js.map",
-    "static/js/3.f3893b93.chunk.js": "/coursework/static/js/3.f3893b93.chunk.js",
-    "static/js/3.f3893b93.chunk.js.map": "/coursework/static/js/3.f3893b93.chunk.js.map",
+    "main.css": "/coursework/static/css/main.32e0f6d7.css",
+    "main.js": "/coursework/static/js/main.3f97773a.js",
+    "static/js/496.4d5ccb7f.chunk.js": "/coursework/static/js/496.4d5ccb7f.chunk.js",
+    "static/media/DegreeCertificateTechnicallyRedacted3.png": "/coursework/static/media/DegreeCertificateTechnicallyRedacted3.b1ac13ad706c0bd54c3c.png",
+    "static/media/SastraLogo.png": "/coursework/static/media/SastraLogo.915865a7c9d859eaccfa.png",
+    "static/media/UIC.png": "/coursework/static/media/UIC.8a395a3bb658934e6f88.png",
+    "static/media/UICWritingLogo.png": "/coursework/static/media/UICWritingLogo.826c16240cf99d4992ff.png",
     "index.html": "/coursework/index.html",
-    "static/css/main.5877b3cf.chunk.css.map": "/coursework/static/css/main.5877b3cf.chunk.css.map",
-    "static/js/2.0f712823.chunk.js.LICENSE.txt": "/coursework/static/js/2.0f712823.chunk.js.LICENSE.txt",
-    "static/media/DegreeCertificateTechnicallyRedacted3.b1ac13ad.png": "/coursework/static/media/DegreeCertificateTechnicallyRedacted3.b1ac13ad.png",
-    "static/media/SastraLogo.915865a7.png": "/coursework/static/media/SastraLogo.915865a7.png",
-    "static/media/UIC.8a395a3b.png": "/coursework/static/media/UIC.8a395a3b.png",
-    "static/media/UICWritingLogo.826c1624.png": "/coursework/static/media/UICWritingLogo.826c1624.png"
+    "main.32e0f6d7.css.map": "/coursework/static/css/main.32e0f6d7.css.map",
+    "main.3f97773a.js.map": "/coursework/static/js/main.3f97773a.js.map",
+    "496.4d5ccb7f.chunk.js.map": "/coursework/static/js/496.4d5ccb7f.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.4ea8d239.js",
-    "static/js/2.0f712823.chunk.js",
-    "static/css/main.5877b3cf.chunk.css",
-    "static/js/main.ef740209.chunk.js"
+    "static/css/main.32e0f6d7.css",
+    "static/js/main.3f97773a.js"
   ]
 }

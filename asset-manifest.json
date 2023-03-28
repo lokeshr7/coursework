@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.32e0f6d7.css",
-    "main.js": "/static/js/main.69b3180e.js",
-    "static/js/496.4d5ccb7f.chunk.js": "/static/js/496.4d5ccb7f.chunk.js",
-    "static/media/DegreeCertificateTechnicallyRedacted3.png": "/static/media/DegreeCertificateTechnicallyRedacted3.b1ac13ad706c0bd54c3c.png",
-    "static/media/SastraLogo.png": "/static/media/SastraLogo.915865a7c9d859eaccfa.png",
-    "static/media/UIC.png": "/static/media/UIC.8a395a3bb658934e6f88.png",
-    "static/media/UICWritingLogo.png": "/static/media/UICWritingLogo.826c16240cf99d4992ff.png",
-    "index.html": "/index.html",
-    "main.32e0f6d7.css.map": "/static/css/main.32e0f6d7.css.map",
-    "main.69b3180e.js.map": "/static/js/main.69b3180e.js.map",
-    "496.4d5ccb7f.chunk.js.map": "/static/js/496.4d5ccb7f.chunk.js.map"
+    "main.css": "/coursework/static/css/main.32e0f6d7.css",
+    "main.js": "/coursework/static/js/main.40976c34.js",
+    "static/js/496.4d5ccb7f.chunk.js": "/coursework/static/js/496.4d5ccb7f.chunk.js",
+    "static/media/DegreeCertificateTechnicallyRedacted3.png": "/coursework/static/media/DegreeCertificateTechnicallyRedacted3.b1ac13ad706c0bd54c3c.png",
+    "static/media/SastraLogo.png": "/coursework/static/media/SastraLogo.915865a7c9d859eaccfa.png",
+    "static/media/UIC.png": "/coursework/static/media/UIC.8a395a3bb658934e6f88.png",
+    "static/media/UICWritingLogo.png": "/coursework/static/media/UICWritingLogo.826c16240cf99d4992ff.png",
+    "index.html": "/coursework/index.html",
+    "main.32e0f6d7.css.map": "/coursework/static/css/main.32e0f6d7.css.map",
+    "main.40976c34.js.map": "/coursework/static/js/main.40976c34.js.map",
+    "496.4d5ccb7f.chunk.js.map": "/coursework/static/js/496.4d5ccb7f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32e0f6d7.css",
-    "static/js/main.69b3180e.js"
+    "static/js/main.40976c34.js"
   ]
 }
